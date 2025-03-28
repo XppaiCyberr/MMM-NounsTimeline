@@ -1,0 +1,93 @@
+.MMM-NounsTimeline {
+    width: 100%;
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 10px;
+}
+
+.casts-container {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.cast {
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 8px;
+    padding: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.author-info {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin-bottom: 6px;
+}
+
+.author-pfp {
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.author-name {
+    font-weight: bold;
+    color: #fff;
+    font-size: 0.9em;
+}
+
+.follower-count {
+    color: #aaa;
+    font-size: 0.8em;
+}
+
+.cast-text {
+    color: #fff;
+    margin: 6px 0;
+    line-height: 1.3;
+    font-size: 0.9em;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    line-clamp: 3;
+    -webkit-box-orient: vertical;
+    max-height: 4.5em;
+}
+
+.cast-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 4px;
+}
+
+.engagement-metrics {
+    display: flex;
+    gap: 12px;
+    color: #888;
+    font-size: 0.8em;
+}
+
+.engagement-metric {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+}
+
+.timestamp {
+    color: #888;
+    font-size: 0.8em;
+}
+
+.cycle-indicator {
+    text-align: center;
+    color: #888;
+    font-size: 0.8em;
+    margin-top: 8px;
+    padding: 4px;
+    background: rgba(255, 255, 255, 0.05);
+    border-radius: 4px;
+} 
